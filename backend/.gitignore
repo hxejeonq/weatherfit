@@ -1,0 +1,19 @@
+# 의존성
+node_modules/
+
+# 환경변수 (API 키가 들어 있어요)
+.env
+.env.*
+!.env.example
+
+# 로그
+*.log
+npm-debug.log*
+
+# 테스트 커버리지
+coverage/
+
+# 운영체제, 에디터 파일
+.DS_Store
+Thumbs.db
+.vscode/
